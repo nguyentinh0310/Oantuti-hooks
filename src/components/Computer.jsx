@@ -5,7 +5,7 @@ const Computer = ({ image }) => {
     <Fragment>
       <div className="columns">
         <div className="column">
-          <h1 className="title">Computer</h1>
+          <h1 className="computer">Computer</h1>
         </div>
       </div>
 

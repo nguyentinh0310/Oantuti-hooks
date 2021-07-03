@@ -7,7 +7,7 @@ const Player = ({ image, handlePlayerPick }) => {
   const handleClick = (e) => {
     const pick = parseInt(e.target.alt);
     handlePlayerPick(pick);
-    console.log(pick);
+    console.log("player",pick);
   };
 
   return (
@@ -39,9 +39,7 @@ const Player = ({ image, handlePlayerPick }) => {
       </div>
 
       <div className="columns">
-        <div className="column">
           <p className="player">Player</p>
-        </div>
       </div>
     </Fragment>
   );

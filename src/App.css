@@ -18,3 +18,9 @@ html,body,#root {
   padding: 4px;
   cursor: pointer;
 }
+.computer{
+  color: red;
+}
+.player{
+  color: white;
+}
