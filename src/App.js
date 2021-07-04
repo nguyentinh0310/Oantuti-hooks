@@ -32,6 +32,7 @@ function App(props) {
     console.log("randomPick", randomPick);
   };
 
+  // check xem ai thắng khi nhận sự thay đổi của randomPick
   useEffect(() => {
     const checkWinner = () => {
       // let { playerScore, emptyScore, playerPick, randomPick } = props;
@@ -77,7 +78,7 @@ function App(props) {
     };
     checkWinner();
     // eslint-disable-next-line
-  }, [playerPick, randomPick]);
+  }, [ randomPick]);
 
   return (
     <Fragment>
